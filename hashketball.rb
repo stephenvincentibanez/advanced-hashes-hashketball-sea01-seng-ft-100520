@@ -157,9 +157,6 @@ end
 
 def team_names
   game_hash.map {|location, team_data| team_data[:team_name]}
-  
-  puts location
-  binding.pry
 end
 
 #Build a method, player_numbers, that takes in an argument of a team name and returns an Array of the jersey numbers for that team.
