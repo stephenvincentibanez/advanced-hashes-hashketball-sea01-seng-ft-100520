@@ -216,6 +216,7 @@ rebounds
 end 
 
 def most_points_scored (player_name)
+  points_scored = 0
   game_hash.each do |location, team_data|
     team_data[:players].each do |player|
       binding.pry
