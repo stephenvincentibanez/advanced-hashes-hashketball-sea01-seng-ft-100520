@@ -215,7 +215,7 @@ end
 rebounds 
 end 
 
-def most_points_scored (player)
+def most_points_scored (player_name)
 end 
  # If you'd like to work on the bonus, uncomment these tests.
 # describe 'bonus' do
