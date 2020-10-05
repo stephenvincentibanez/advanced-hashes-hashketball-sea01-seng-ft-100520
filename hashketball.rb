@@ -223,8 +223,8 @@ def most_points_scored (player_name)
       return player_name
       end 
     end 
+     binding.pry 
   end 
-  binding.pry 
 end 
 
  
