@@ -216,6 +216,8 @@ rebounds
 end 
 
 def most_points_scored (player_name)
+  game_hash.each do |location, team_data|
+    team_data[:players].each do |player|
 end 
 
  # If you'd like to work on the bonus, uncomment these tests.
