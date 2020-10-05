@@ -157,6 +157,8 @@ end
 
 def team_names
   game_hash.map {|location, team_data| team_data[:team_name]}
+  
+  puts location
   binding.pry
 end
 
